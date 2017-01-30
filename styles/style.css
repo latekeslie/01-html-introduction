@@ -6,11 +6,11 @@ body {
 }
 
 ul {
-  padding 0;
+  padding: 0;
   list-style: none;
 }
 
-img
+img {
   max-width: 100%;
 }
 
@@ -24,14 +24,14 @@ figure {
 
 .app {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 
   min-height: 100vh;
 }
 
 .app__nav {
   background: #222;
-  color: rgb(220,220,230
+  color: rgb(220,220,230)
 
   padding: 1rem;
 }
@@ -120,7 +120,7 @@ figure {
 }
 
 .hero {
-  display: flex
+  display: flex;
   align-items: center;
 
   margin: -1rem;
@@ -135,7 +135,7 @@ figure {
   text-align: center;
 }
 
-.grid
+.grid {
   display: flex;
   flex-wrap: wrap;
 
@@ -146,13 +146,13 @@ figure {
 
 .grid__item {
   flex-basis: calc(100% / 3 - 2rem);
-  flex-grow: 1
+  flex-grow: 1;
 
   margin: 1rem;
 }
 
 .grid__item--quarter {
-  flex-basis: calc(100% / 4 - 2rem;
+  flex-basis: calc(100% / 4 - 2rem);
 }
 
 .card {
@@ -167,7 +167,7 @@ figure {
   box-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
-.card__image
+.card__image {
   margin: -0.5rem;
 }
 
@@ -178,7 +178,7 @@ figure {
 
 .card__caption h4 {
   margin: 0
-  font: 1.2rem Cormorant;
+  font: 1.2rem: fontfamily Cormorant;
 }
 
 .media {
@@ -190,34 +190,35 @@ figure {
 }
 
 .media__right h3 {
-  margin: 0
+  margin: 0;
 }
 
-.media__right p
+.media__right p {
   margin: 0;
 }
 
 .circle-icon {
   display: inline-block;
-  background: #2a7af3
+  background: #2a7af3;
   padding: 0.5rem;
-  border-radius 50%;
+  border-radius: 50%;
   color: #fff;
 }
 
 .circle-icon--primary {
   background: #6362b8;
 
+}
 
-.circle-icon--success
+.circle-icon--success {
   background: #51a852;
 }
 
 .circle-icon--warning {
-  background #d25555;
+  background: #d25555;
 }
 
-.quote
+.quote {
   min-width: 10rem;
 }
 
@@ -226,7 +227,7 @@ figure {
 }
 
 .quote__card {
-  position: relative
+  position: relative;
   padding: 0.5rem;
 
   border-radius 0.1rem;
