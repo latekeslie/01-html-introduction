@@ -41,7 +41,7 @@ figure {
 }
 
 .container {
-  max-width: 60 rem;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -156,8 +156,8 @@ figure {
 }
 
 .card {
-  min-width: 14  rem;
-  padding: 0.   5rem;
+  min-width: 14rem;
+  padding: 0.5rem;
 
   border-radius: 0.1rem;
 
@@ -235,7 +235,7 @@ figure {
 
   background: #fff;
 
-  filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.2));
 }
 
 .quote__card::after {
